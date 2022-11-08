@@ -276,6 +276,7 @@ padding-right: 15px;
 
 .employee-section {
     background-color: var(--tertiary-bg-and-text-color);
+    width: calc((100% - 90px) / 4);
 }
 .employee-image {
     display: block;
@@ -317,13 +318,12 @@ padding-right: 15px;
 .projects-set {
     display: flex;
     flex-wrap:wrap;
-    flex-basis: calc((100%-90)/3);
     gap: 30px; 
 }
 
 .project-item {
     background-color: var(--tertiary-bg-and-text-color);
-
+    width:calc((100% - 60px)/3);
 }
 .project-image {
     display: block;
