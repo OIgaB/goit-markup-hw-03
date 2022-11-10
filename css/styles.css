@@ -46,7 +46,7 @@ padding-right: 15px;
 }
 
 /* ------------- Header & Footer ---------------- */
-.header-wrap {
+.portfolio-header {
     border-bottom: 1px solid #ECECEC;
 }
 
@@ -123,9 +123,9 @@ padding-right: 15px;
     margin-top: 20px;
 }
 
-.address-cntacts-section {
-    gap: 9px;
-}
+/* .address-contacts-section {
+    
+} */
 
 .address-link {
     color: var(--tertiary-bg-and-text-color);
@@ -139,6 +139,7 @@ padding-right: 15px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
+    padding-top: 9px;
 }
 .footer-contact-link:hover,
 .footer-contact-link:focus {
@@ -201,7 +202,6 @@ padding-right: 15px;
     padding-top: 200px; 
     padding-bottom: 200px;
     background-color: #2F303A;
-    margin-bottom: 94px;
 }
 .hero-title {
     color: var(--tertiary-bg-and-text-color);
@@ -217,7 +217,8 @@ padding-right: 15px;
 
 /* Цінності студії */
 .values-container {
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .values-section {
     display: flex;
@@ -240,18 +241,19 @@ padding-right: 15px;
 }
 
 /* Напрями діяльності студії */
-
+.activities {
+    padding-bottom: 94px;
+}
 .activities-section-title {
     font-size: 36px;
     line-height: 1.2;
     text-align: center;
     margin-bottom: 50px;
 }
-.activities-container {
+.activities-items {
     display: flex;
     justify-content: center;
     gap: 30px;
-    margin-bottom: 94px;
 }
 
 /* Команда студії */
@@ -259,6 +261,7 @@ padding-right: 15px;
 .team-section {
     background-color: var(--secondary-bg-color);
     padding-top: 94px;
+    padding-bottom: 94px;
 }
 .team-section-title {
     font-size: 36px;
@@ -270,7 +273,6 @@ padding-right: 15px;
     display: flex;
     justify-content: center;
     gap: 30px;
-    padding-bottom: 94px;
 }
 
 .employee-section {
